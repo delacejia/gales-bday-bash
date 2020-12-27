@@ -1,0 +1,106 @@
+/* CSS file for example-04 index.html */
+
+/*imported fonts*/
+
+@font-face{
+  font-family: FranklinB;
+  src: url(FRAHV.ttf);
+}
+
+@font-face{
+  font-family: Franklin;
+  src: url(FRABK.ttf);
+}
+
+@font-face{
+  font-family: CenturyGothic;
+  src: url(GOTHIC.ttf);
+}
+
+@font-face{
+  font-family: CGB;
+  src: url(GOTHICB.ttf);
+}
+
+.nav {
+  list-style-type: none;
+  text-align: center;
+  width: 75%;
+  height: 75px;
+  margin: auto;
+}
+
+.nav h1 {
+  display: inline-block;
+  padding: 5 px;
+  font-family: 'Courier New', monospace;
+  font-size: 40px;
+}
+
+.nav h2 {
+  display: inline-block;
+  padding: 5 px;
+  font-family: 'Courier New', monospace;
+  font-size: 40px;
+}
+
+.nav h3 {
+  display: inline-block;
+  padding: 5px;
+  font-family: 'Courier New', monospace;
+  font-size: 25px;
+}
+
+a:link, a:visited, a:active {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ed6a5a;
+  text-decoration: none;
+}
+
+.content {
+  width: 750px;
+  margin: auto;
+  font-family: 'Courier New', monospace;
+  line-height: 1.5em;
+}
+
+.idea {
+  width: auto;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.idea li{
+  list-style-type: "✂ ";
+}
+
+.flavor-text {
+  text-align: center;
+  font-style: italic;
+  width: 750px;
+  margin: auto;
+  font-family: 'Courier New', monospace;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+.sketch-title {
+  width: auto;
+  font-family: 'Courier New', monospace;
+}
+
+.title-image {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.puz-image {
+  width: 150%;
+  margin-left: -180px;
+}
